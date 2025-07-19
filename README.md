@@ -13,7 +13,7 @@ Script - 2
 
 aws cloudformation create-stack
 --stack-name udagram-app
---template-body file://application.yml
+--template-body file://application.yaml
 --parameters file://params.json
 --capabilities CAPABILITY_NAMED_IAM
 
